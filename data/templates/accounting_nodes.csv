@@ -1,0 +1,101 @@
+id,label,type,graph,pool,lane,assignee,department,headcount,node_cost,equipment
+1,Start,1,P01 - Lập ngân sách,Accounting/Finance,Budget Planning,,,,0,
+2,Thu thập dữ liệu chi phí,2,P01 - Lập ngân sách,Accounting/Finance,Budget Planning,Nguyễn Văn A,Kế toán,2,800000,Máy tính; Excel
+3,Phân tích xu hướng,2,P01 - Lập ngân sách,Accounting/Finance,Budget Planning,Trần Thị B,Kế toán,2,600000,Máy tính; Power BI
+4,Lập dự thảo ngân sách,2,P01 - Lập ngân sách,Accounting/Finance,Budget Planning,Trần Thị B,Kế toán,2,700000,Excel; ERP
+5,Gate XOR - Phê duyệt?,3,P01 - Lập ngân sách,Accounting/Finance,Management,,,,0,
+6,Trình CFO duyệt,2,P01 - Lập ngân sách,Accounting/Finance,Management,Lê Văn C,Ban giám đốc,1,500000,Máy tính; Email
+7,Điều chỉnh ngân sách,2,P01 - Lập ngân sách,Accounting/Finance,Budget Planning,Trần Thị B,Kế toán,2,400000,Excel
+8,Phê duyệt & Ban hành,2,P01 - Lập ngân sách,Accounting/Finance,Management,Lê Văn C,Ban giám đốc,1,300000,Hệ thống ERP
+9,End,1,P01 - Lập ngân sách,Accounting/Finance,Budget Planning,,,,0,
+1,Start,1,P02 - Phê duyệt chi phí,Accounting/Finance,Staff,,,0,0,
+2,Nhân viên tạo phiếu chi,2,P02 - Phê duyệt chi phí,Accounting/Finance,Staff,Phạm Thị D,Nhân viên,1,200000,Máy tính; ERP
+3,Gate XOR - Dưới hạn mức?,3,P02 - Phê duyệt chi phí,Accounting/Finance,Staff,,,,0,
+4,Kế toán xét duyệt,2,P02 - Phê duyệt chi phí,Accounting/Finance,Accounting,Hoàng Văn E,Kế toán,1,400000,ERP; Máy tính
+5,Trưởng phòng duyệt,2,P02 - Phê duyệt chi phí,Accounting/Finance,Management,Nguyễn Thị F,Trưởng phòng,1,300000,Email; ERP
+6,Gate XOR - Hợp lệ?,3,P02 - Phê duyệt chi phí,Accounting/Finance,Accounting,,,,0,
+7,Yêu cầu bổ sung hồ sơ,2,P02 - Phê duyệt chi phí,Accounting/Finance,Staff,Phạm Thị D,Nhân viên,1,150000,Email
+8,Thanh toán chi phí,2,P02 - Phê duyệt chi phí,Accounting/Finance,Accounting,Hoàng Văn E,Kế toán,1,350000,ERP; Internet banking
+9,End,1,P02 - Phê duyệt chi phí,Accounting/Finance,Accounting,,,,0,
+1,Start,1,P03 - Thanh toán NCC,Accounting/Finance,Accounting,,,,0,
+2,Nhận hóa đơn NCC,2,P03 - Thanh toán NCC,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,2,300000,Email; Máy scan
+3,Kiểm tra 3 chiều,2,P03 - Thanh toán NCC,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,2,500000,ERP; Excel
+4,Gate XOR - Khớp PO?,3,P03 - Thanh toán NCC,Accounting/Finance,Accounting,,,,0,
+5,Xử lý chênh lệch,2,P03 - Thanh toán NCC,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,2,400000,ERP; Email
+6,Lên lịch thanh toán,2,P03 - Thanh toán NCC,Accounting/Finance,Accounting,Đinh Văn H,Kế toán,1,300000,ERP
+7,Thực hiện chuyển khoản,2,P03 - Thanh toán NCC,Accounting/Finance,Accounting,Đinh Văn H,Kế toán,1,400000,Internet banking; ERP
+8,Lưu chứng từ,2,P03 - Thanh toán NCC,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,2,200000,Máy scan; ERP
+9,End,1,P03 - Thanh toán NCC,Accounting/Finance,Accounting,,,,0,
+1,Start,1,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,,,,0,
+2,Phát hành hóa đơn,2,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,Bùi Thị I,Kế toán,2,400000,ERP; Máy in
+3,Gửi hóa đơn KH,2,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,Bùi Thị I,Kế toán,2,200000,Email; Bưu điện
+4,Gate OR - Hình thức TT,4,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,,,,0,
+5,Xử lý chuyển khoản,2,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,Bùi Thị I,Kế toán,2,300000,Internet banking
+6,Xử lý tiền mặt,2,P04 - Thu tiền khách hàng,Accounting/Finance,Cashier,Lý Văn J,Thu ngân,1,250000,Máy tính tiền
+7,Gate OR - Hợp nhất,4,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,,,,0,
+8,Đối chiếu công nợ,2,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,Bùi Thị I,Kế toán,2,350000,ERP; Excel
+9,Gate XOR - Đã đủ?,3,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,,,,0,
+10,Nhắc nợ khách hàng,2,P04 - Thu tiền khách hàng,Accounting/Finance,Sales,Phạm Văn K,Kinh doanh,1,300000,Email; Điện thoại
+11,Ghi nhận doanh thu,2,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,Bùi Thị I,Kế toán,2,300000,ERP
+12,End,1,P04 - Thu tiền khách hàng,Accounting/Finance,Accounting,,,,0,
+1,Start,1,P05 - Xử lý lương,Accounting/Finance,HR,,,,0,
+2,Tổng hợp chấm công,2,P05 - Xử lý lương,Accounting/Finance,HR,Trần Văn L,Nhân sự,2,600000,Phần mềm HRM
+3,Tính lương & phụ cấp,2,P05 - Xử lý lương,Accounting/Finance,Accounting,Nguyễn Thị M,Kế toán,2,800000,Excel; ERP
+4,Gate XOR - Sai sót?,3,P05 - Xử lý lương,Accounting/Finance,Accounting,,,,0,
+5,Điều chỉnh bảng lương,2,P05 - Xử lý lương,Accounting/Finance,Accounting,Nguyễn Thị M,Kế toán,2,500000,Excel; ERP
+6,Trưởng phòng phê duyệt,2,P05 - Xử lý lương,Accounting/Finance,Management,Lê Văn C,Ban giám đốc,1,300000,ERP; Email
+7,Chuyển khoản lương,2,P05 - Xử lý lương,Accounting/Finance,Accounting,Nguyễn Thị M,Kế toán,2,400000,Internet banking
+8,Gửi phiếu lương,2,P05 - Xử lý lương,Accounting/Finance,HR,Trần Văn L,Nhân sự,2,200000,Email; HRM
+9,End,1,P05 - Xử lý lương,Accounting/Finance,HR,,,,0,
+1,Start,1,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,,,,0,
+2,Tải sao kê ngân hàng,2,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,1,300000,Internet banking; ERP
+3,So sánh với sổ kế toán,2,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,1,500000,Excel; ERP
+4,Gate XOR - Khớp số liệu?,3,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,,,,0,
+5,Xác định chênh lệch,2,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,1,600000,Excel
+6,Điều tra nguyên nhân,2,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,Đinh Văn H,Kế toán,2,700000,ERP; Email; Điện thoại
+7,Gate XOR - Giải quyết được?,3,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,,,,0,
+8,Báo cáo lên CFO,2,P06 - Đối soát ngân hàng,Accounting/Finance,Management,Lê Văn C,Ban giám đốc,1,400000,Email; Báo cáo
+9,Điều chỉnh bút toán,2,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,1,500000,ERP
+10,Hoàn tất đối soát,2,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,1,300000,ERP
+11,End,1,P06 - Đối soát ngân hàng,Accounting/Finance,Accounting,,,,0,
+1,Start,1,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,,,,0,
+2,Lập kế hoạch kiểm toán,2,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,Ngô Thị N,Kiểm toán,3,900000,Máy tính; Excel
+3,Thu thập bằng chứng,2,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,Ngô Thị N,Kiểm toán,3,1200000,ERP; Scanner; Máy tính
+4,Gate OR - Phạm vi KT,4,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,,,,0,
+5,Kiểm tra chứng từ,2,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,Ngô Thị N,Kiểm toán,2,800000,Máy tính; ERP
+6,Phỏng vấn nhân viên,2,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,Trương Văn O,Kiểm toán,2,700000,Máy ghi âm; Máy tính
+7,Gate OR - Tổng hợp,4,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,,,,0,
+8,Lập báo cáo kiểm toán,2,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,Ngô Thị N,Kiểm toán,3,1000000,Máy tính; Word
+9,Trình ban lãnh đạo,2,P07 - Kiểm toán nội bộ,Accounting/Finance,Management,Lê Văn C,Ban giám đốc,1,500000,Máy chiếu; Máy tính
+10,End,1,P07 - Kiểm toán nội bộ,Accounting/Finance,Internal Audit,,,,0,
+1,Start,1,P08 - Báo cáo tài chính,Accounting/Finance,Accounting,,,,0,
+2,Đóng sổ kỳ kế toán,2,P08 - Báo cáo tài chính,Accounting/Finance,Accounting,Nguyễn Thị M,Kế toán,3,1000000,ERP
+3,Lập BCTC sơ bộ,2,P08 - Báo cáo tài chính,Accounting/Finance,Accounting,Nguyễn Thị M,Kế toán,3,1200000,ERP; Excel
+4,Gate XOR - Cần kiểm toán?,3,P08 - Báo cáo tài chính,Accounting/Finance,Accounting,,,,0,
+5,Kiểm toán độc lập,2,P08 - Báo cáo tài chính,Accounting/Finance,External Audit,Phan Thị P,Kiểm toán độc lập,4,5000000,Máy tính; ERP; Scanner
+6,Soát xét nội bộ,2,P08 - Báo cáo tài chính,Accounting/Finance,Internal Audit,Ngô Thị N,Kiểm toán,2,800000,ERP; Excel
+7,Gate XOR - Có ý kiến?,3,P08 - Báo cáo tài chính,Accounting/Finance,Accounting,,,,0,
+8,Điều chỉnh BCTC,2,P08 - Báo cáo tài chính,Accounting/Finance,Accounting,Nguyễn Thị M,Kế toán,3,900000,ERP; Excel
+9,Phê duyệt & Phát hành,2,P08 - Báo cáo tài chính,Accounting/Finance,Management,Lê Văn C,Ban giám đốc,1,400000,ERP; Email
+10,End,1,P08 - Báo cáo tài chính,Accounting/Finance,Accounting,,,,0,
+1,Start,1,P09 - Quản lý tài sản,Accounting/Finance,Accounting,,,,0,
+2,Ghi nhận tài sản mới,2,P09 - Quản lý tài sản,Accounting/Finance,Accounting,Đinh Văn H,Kế toán,1,400000,ERP; Máy scan
+3,Phân loại tài sản,2,P09 - Quản lý tài sản,Accounting/Finance,Accounting,Đinh Văn H,Kế toán,1,300000,ERP; Excel
+4,Gate XOR - Loại tài sản,3,P09 - Quản lý tài sản,Accounting/Finance,Accounting,,,,0,
+5,Tính khấu hao tuyến tính,2,P09 - Quản lý tài sản,Accounting/Finance,Accounting,Đinh Văn H,Kế toán,1,500000,Excel; ERP
+6,Tính khấu hao nhanh,2,P09 - Quản lý tài sản,Accounting/Finance,Accounting,Đinh Văn H,Kế toán,1,600000,Excel; ERP
+7,Gate XOR - Hợp nhất KH,3,P09 - Quản lý tài sản,Accounting/Finance,Accounting,,,,0,
+8,Kiểm kê định kỳ,2,P09 - Quản lý tài sản,Accounting/Finance,Accounting,Vũ Thị G,Kế toán,2,700000,Máy scan; ERP
+9,Cập nhật sổ tài sản,2,P09 - Quản lý tài sản,Accounting/Finance,Accounting,Đinh Văn H,Kế toán,1,300000,ERP
+10,End,1,P09 - Quản lý tài sản,Accounting/Finance,Accounting,,,,0,
+1,Start,1,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,,,,0,
+2,Tổng hợp hồ sơ thuế,2,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,Quách Thị Q,Kế toán thuế,2,800000,ERP; Excel; Scanner
+3,Kiểm tra điều kiện hoàn,2,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,Quách Thị Q,Kế toán thuế,2,600000,ERP; Văn bản pháp luật
+4,Gate XOR - Đủ điều kiện?,3,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,,,,0,
+5,Bổ sung hồ sơ,2,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,Quách Thị Q,Kế toán thuế,2,500000,Máy scan; Email
+6,Nộp hồ sơ lên CQT,2,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,Quách Thị Q,Kế toán thuế,2,400000,Cổng DVCTT; Email
+7,Gate XOR - CQT phản hồi,3,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,,,,0,
+8,Giải trình bổ sung,2,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,Quách Thị Q,Kế toán thuế,2,700000,Máy tính; Email; Fax
+9,Nhận tiền hoàn thuế,2,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,Quách Thị Q,Kế toán thuế,2,300000,Internet banking; ERP
+10,Ghi nhận vào sổ sách,2,P10 - Xử lý hoàn thuế,Accounting/Finance,Accounting,Nguyễn Thị M,Kế toán,2,400000,ERP
+11,End,1,P10 - Xử lý hoàn thuế,Accounting/Finance,Tax,,,,0,

@@ -1,0 +1,106 @@
+source,target,graph,label
+1,2,P01 - Lập ngân sách,
+2,3,P01 - Lập ngân sách,
+3,4,P01 - Lập ngân sách,
+4,5,P01 - Lập ngân sách,
+5,6,P01 - Lập ngân sách,Cần duyệt BGĐ
+5,8,P01 - Lập ngân sách,Tự động duyệt
+6,7,P01 - Lập ngân sách,Từ chối
+6,8,P01 - Lập ngân sách,Đồng ý
+7,4,P01 - Lập ngân sách,Điều chỉnh lại
+8,9,P01 - Lập ngân sách,
+1,2,P02 - Phê duyệt chi phí,
+2,3,P02 - Phê duyệt chi phí,
+3,4,P02 - Phê duyệt chi phí,Dưới hạn mức
+3,5,P02 - Phê duyệt chi phí,Trên hạn mức
+4,6,P02 - Phê duyệt chi phí,
+5,6,P02 - Phê duyệt chi phí,
+6,7,P02 - Phê duyệt chi phí,Không hợp lệ
+6,8,P02 - Phê duyệt chi phí,Hợp lệ
+7,2,P02 - Phê duyệt chi phí,Nộp lại
+8,9,P02 - Phê duyệt chi phí,
+1,2,P03 - Thanh toán NCC,
+2,3,P03 - Thanh toán NCC,
+3,4,P03 - Thanh toán NCC,
+4,5,P03 - Thanh toán NCC,Không khớp
+4,6,P03 - Thanh toán NCC,Khớp PO
+5,3,P03 - Thanh toán NCC,Xử lý lại
+6,7,P03 - Thanh toán NCC,
+7,8,P03 - Thanh toán NCC,
+8,9,P03 - Thanh toán NCC,
+1,2,P04 - Thu tiền khách hàng,
+2,3,P04 - Thu tiền khách hàng,
+3,4,P04 - Thu tiền khách hàng,
+4,5,P04 - Thu tiền khách hàng,Chuyển khoản
+4,6,P04 - Thu tiền khách hàng,Tiền mặt
+5,7,P04 - Thu tiền khách hàng,
+6,7,P04 - Thu tiền khách hàng,
+7,8,P04 - Thu tiền khách hàng,
+8,9,P04 - Thu tiền khách hàng,
+9,10,P04 - Thu tiền khách hàng,Chưa đủ
+9,11,P04 - Thu tiền khách hàng,Đã đủ
+10,3,P04 - Thu tiền khách hàng,Nhắc lại
+11,12,P04 - Thu tiền khách hàng,
+1,2,P05 - Xử lý lương,
+2,3,P05 - Xử lý lương,
+3,4,P05 - Xử lý lương,
+4,5,P05 - Xử lý lương,Có sai sót
+4,6,P05 - Xử lý lương,Chính xác
+5,3,P05 - Xử lý lương,Tính lại
+6,7,P05 - Xử lý lương,
+7,8,P05 - Xử lý lương,
+8,9,P05 - Xử lý lương,
+1,2,P06 - Đối soát ngân hàng,
+2,3,P06 - Đối soát ngân hàng,
+3,4,P06 - Đối soát ngân hàng,
+4,5,P06 - Đối soát ngân hàng,Chênh lệch
+4,10,P06 - Đối soát ngân hàng,Đã khớp
+5,6,P06 - Đối soát ngân hàng,
+6,7,P06 - Đối soát ngân hàng,
+7,8,P06 - Đối soát ngân hàng,Không giải quyết được
+7,9,P06 - Đối soát ngân hàng,Giải quyết được
+9,10,P06 - Đối soát ngân hàng,
+10,11,P06 - Đối soát ngân hàng,
+1,2,P07 - Kiểm toán nội bộ,
+2,3,P07 - Kiểm toán nội bộ,
+3,4,P07 - Kiểm toán nội bộ,
+4,5,P07 - Kiểm toán nội bộ,Kiểm tra chứng từ
+4,6,P07 - Kiểm toán nội bộ,Phỏng vấn
+5,7,P07 - Kiểm toán nội bộ,
+6,7,P07 - Kiểm toán nội bộ,
+7,8,P07 - Kiểm toán nội bộ,
+8,9,P07 - Kiểm toán nội bộ,
+9,10,P07 - Kiểm toán nội bộ,
+1,2,P08 - Báo cáo tài chính,
+2,3,P08 - Báo cáo tài chính,
+3,4,P08 - Báo cáo tài chính,
+4,5,P08 - Báo cáo tài chính,Bắt buộc kiểm toán
+4,6,P08 - Báo cáo tài chính,Soát xét nội bộ
+5,7,P08 - Báo cáo tài chính,
+6,7,P08 - Báo cáo tài chính,
+7,8,P08 - Báo cáo tài chính,Có ý kiến
+7,9,P08 - Báo cáo tài chính,Không có ý kiến
+8,3,P08 - Báo cáo tài chính,Điều chỉnh lại
+9,10,P08 - Báo cáo tài chính,
+1,2,P09 - Quản lý tài sản,
+2,3,P09 - Quản lý tài sản,
+3,4,P09 - Quản lý tài sản,
+4,5,P09 - Quản lý tài sản,Tuyến tính
+4,6,P09 - Quản lý tài sản,Khấu hao nhanh
+5,7,P09 - Quản lý tài sản,
+6,7,P09 - Quản lý tài sản,
+7,8,P09 - Quản lý tài sản,
+8,9,P09 - Quản lý tài sản,
+9,10,P09 - Quản lý tài sản,
+1,2,P10 - Xử lý hoàn thuế,
+2,3,P10 - Xử lý hoàn thuế,
+3,4,P10 - Xử lý hoàn thuế,
+4,5,P10 - Xử lý hoàn thuế,Thiếu hồ sơ
+4,6,P10 - Xử lý hoàn thuế,Đủ điều kiện
+5,3,P10 - Xử lý hoàn thuế,Bổ sung xong
+6,7,P10 - Xử lý hoàn thuế,
+7,8,P10 - Xử lý hoàn thuế,Cần giải trình
+7,9,P10 - Xử lý hoàn thuế,Đã duyệt
+8,6,P10 - Xử lý hoàn thuế,Nộp lại
+9,10,P10 - Xử lý hoàn thuế,
+10,11,P10 - Xử lý hoàn thuế,
